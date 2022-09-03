@@ -14,7 +14,8 @@
       
       <guid>https://cgordon-gis.github.io/gis-portfolio/portfolio/01_points/</guid>
       <description>Firefly cartography April 2022
-Tools used QGIS What did I learn? Draw effects in QGIS Firefly cartography! How to create firefly cartography with QGIS </description>
+Points glowing against a dark background.
+Data Cities data from Natural Earth Data. (Which dataset?) Tools used QGIS What did I learn? The effectiveness of draw effects in QGIS. Firefly cartography! How to create firefly cartography with QGIS </description>
     </item>
     
     <item>
@@ -34,7 +35,7 @@ Tools I used QGIS with QGIS2threejs extension What did I learn? How to add z val
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cgordon-gis.github.io/gis-portfolio/portfolio/22_boundaries/</guid>
-      <description>My personal bounding box That is, the boundary surrounding the places I have visited.
+      <description>My personal bounding box That is, the boundary surrounding places I have visited.
 Data Natural Earth Data OpenStreetMap data Tools I used QGIS with Globe Builder plugin which became available as of January 2022. What did I learn? Some of this was on first attempt before the Globe Builder plugin became available:
 How to set up a globe to use as a location map. Custom projections in QGIS. What do I want to change?</description>
     </item>
@@ -78,7 +79,8 @@ So I decided to compare the ratio of woodland/forest to area in a selection of p
       
       <guid>https://cgordon-gis.github.io/gis-portfolio/portfolio/21_elevation/</guid>
       <description>The idea for this map came from a blog about long barrows.
-RGB hillshade with Relief Visualisation Toolbox Data Data is 1m Lidar DTM from Defra download page. Tools I used Relief Visualisation Toolbox which I&amp;rsquo;d not used before. What did I learn? Learnt about Lidar data with 3 directional hillshade - as shown on the NLS website. What do I want to change? I need to find out more detail about RVT so I possibly have more control over results.</description>
+RGB hillshade with Relief Visualisation Toolbox Bury Ditches Hillfort, South Shropshire.
+Data Data is 1m Lidar DTM from Defra download page. Tools I used Relief Visualisation Toolbox which I&amp;rsquo;d not used before. What did I learn? Learnt about Lidar data with 3 directional hillshade - as shown on the NLS website. What do I want to change? I need to find out more detail about RVT so I possibly have more control over results.</description>
     </item>
     
     <item>
@@ -126,15 +128,15 @@ Interactive Torridonian Reflections map. Tools I used Made with qgis2web plugin 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cgordon-gis.github.io/gis-portfolio/portfolio/19_islands/</guid>
-      <description>Flat Holm and Steep Holm Flat Holm and Steep Holm are islands in the Bristol Channel visible from Weston-Super-Mare.
+      <description>Flat Holm and Steep Holm Flat Holm and Steep Holm are islands in the Bristol Channel visible from Weston-Super-Mare. I spent many happy holidays in Weston-Super-Mare staying with my grandparents.
 The maps are inspired by the style of Hamish Haswell-Smith in his Scottish Islands book.
 Contains OS data © Crown Copyright and database right 2022.
 Also contains OpenStreetMap data © OpenStreetMap Contributors, 2022.
-Data OS Open Zoomstack Converted contour and waterline layers from OS OpenZoomstack to polygons then styled as height. Tools I used QGIS What did I learn?</description>
+Data OS Open Zoomstack Converted contour and waterline layers from OS OpenZoomstack to polygons then styled as height.</description>
     </item>
     
     <item>
-      <title>Lines</title>
+      <title>Lines 2</title>
       <link>https://cgordon-gis.github.io/gis-portfolio/portfolio/02_lines2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -242,7 +244,8 @@ Data SRTM data downloaded via Earth Explorer Tools I used QGIS with instructions
       
       <guid>https://cgordon-gis.github.io/gis-portfolio/portfolio/28_earthnotflat2/</guid>
       <description>Joyplots are nicknamed as such after an album cover by the band, Joy Division. The more official name is ridge-line plots.
-Cwm Mawr Dingle and The Novers joyplot with D.E.M. Slicer Data 1 m DTM Lidar downloaded from Defra Survey Data Download. Tools I used QGIS with the D.E.M. Slicer plugin. What did I learn? How to use the plugin. What do I want to change? Need to look for a more distinctive landscape feature.</description>
+Cwm Mawr Dingle and The Novers joyplot with D.E.M. Slicer Joy plot of an area near Bishop&amp;rsquo;s Castle in South-west Shropshire.
+Data 1 m DTM Lidar downloaded from Defra Survey Data Download. Tools I used QGIS with the D.E.M. Slicer plugin. What did I learn? How to use the plugin.</description>
     </item>
     
     <item>

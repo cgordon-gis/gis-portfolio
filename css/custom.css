@@ -8,3 +8,43 @@
   color: #424242;
 }
 
+/* Increasing contrast for accessibility reasons. */
+/* All links on site. */
+
+/*a {
+    color: #348787;
+    text-decoration: none;
+}*/
+
+/* increasing contrast for side bar elements. */
+.sidebar-p {
+    color: #282828;
+    font-size: 14px;
+}
+
+.copyright {
+    color: #282828;
+    font-size: 13px;
+}
+.copyright p.credit a {
+
+    color: #282828;
+}
+
+p.social a {
+    margin: 0 10px 10px 0;
+    color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    border: solid 1px #282828;
+    color: #282828;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
