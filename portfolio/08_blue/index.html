@@ -107,31 +107,30 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Elevation</h1>
-         <h2 id="rgb-hillshade-with-relief-visualisation-toolbox">RGB hillshade with Relief Visualisation Toolbox</h2>
-<p>The idea for this map came from a <a href="https://blogavas.wordpress.com/2022/03/19/using-lidar-to-calculate-long-barrow-mound-volume/?s=03">blog about long barrows</a> by the Avon Valley Archaeological Society.</p>
-<p><img src="../../img/portfolio/BuryDitchesPCARGB.png" alt="Bury Ditches in RGB hillshade using Relief Visualisation Toolbox." title="Bury Ditches in RGB hillshade using Relief Visualisation Toolbox."></p>
-<p>Bury Ditches Hillfort, South Shropshire.</p>
-<h3 id="data">Data</h3>
+         <h1>Blue</h1>
+         <p>Once I&rsquo;d discovered the UKHO site with lots of detailed bathymetry for the UK, it seemed obvious to produce a map of Loch Torridon.  In the end, it worked best to concentrate on one part of the Loch.</p>
+<h2 id="bathymetry-of-the-loch-torridon-narrows">Bathymetry of the Loch Torridon Narrows</h2>
+<p><img src="../../img/portfolio/TorridonBathymetry_sm.png" alt="Bathymetry of the Loch Torridon Narrows." title="Bathymetry of the Loch Torridon Narrows."></p>
+<h3 id="data-i-used">Data I used</h3>
 <ul>
-<li>Data is 1m Lidar DTM from <a href="https://environment.data.gov.uk/DefraDataDownload/?Mode=survey">Defra download page</a>.</li>
-<li>Data acknowledgement for Lidar data - <code>Contains public sector information licensed under the Open Government Licence v3.0.</code></li>
+<li>2m, 4m and 8m resolution bathymetry of Loch Torridon from <a href="https://seabed.admiralty.co.uk/order-type?x=-639089.81&amp;y=7880789.31&amp;z=10.68">UKHO Seabed Mapping Service</a></li>
+<li><a href="https://osdatahub.os.uk/downloads/open/OpenZoomstack">Ordnance Survey OpenZoomstack data</a> with <a href="https://github.com/OrdnanceSurvey/OS-Open-Zoomstack-Stylesheets">OS stylesheets</a>.</li>
 </ul>
 <h3 id="tools-i-used">Tools I used</h3>
 <ul>
-<li>QGIS to merge lidar data then clip to required area.</li>
-<li><a href="https://iaps.zrc-sazu.si/en/rvt">Relief Visualisation Toolbox</a> which I&rsquo;d not used before.</li>
+<li>GDAL to convert .bag files to tif and combine different resolutions into one output.</li>
+<li>QGIS to fill some of gaps in data (<code>r.fill.null</code>), e.g. fish farm to east of Shieldaig Peninsula.</li>
+<li>QGIS to layout.</li>
 </ul>
 <h3 id="what-did-i-learn">What did I learn?</h3>
 <ul>
-<li>Learnt about <a href="https://maps.nls.uk/guides/lidar/index.html">Lidar data with 3 directional hillshade</a> - as shown on the NLS website.  They say &ldquo;This multi-direction hillshade has the effect of picking out minor landscape features more clearly than a single direction hillshade.&rdquo;</li>
+<li>Where to find detailed bathymetry data for UK.</li>
+<li>How to extract bathymetry data from <code>.bag</code> files.</li>
+<li>How shallow the narrows themselves are, and how quickly they drop away into the outer loch.</li>
 </ul>
 <h3 id="what-do-i-want-to-do-next">What do I want to do next?</h3>
 <ul>
-<li>QGIS has a plugin for RVT so I&rsquo;d like to try that as well as the stand-alone version.</li>
-<li>I need to find out more detail about RVT so I possibly have more control over results.</li>
-<li>I&rsquo;d like to see what some other local hillforts look like with RGB hillshade.</li>
-<li>Might be worth comparing this with effect of single direction hillshade.</li>
+<li>Data from 8m bathymetry doesn&rsquo;t look great with more detailed areas, but I haven&rsquo;t found a way round this yet.</li>
 </ul>
 
          
