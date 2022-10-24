@@ -107,32 +107,27 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Elevation</h1>
-         <h2 id="rgb-hillshade-with-relief-visualisation-toolbox">RGB hillshade with Relief Visualisation Toolbox</h2>
-<p>The idea for this map came from a <a href="https://blogavas.wordpress.com/2022/03/19/using-lidar-to-calculate-long-barrow-mound-volume/?s=03">blog about long barrows</a> by the Avon Valley Archaeological Society.</p>
-<p><img src="../../img/portfolio/BuryDitchesPCARGB.png" alt="Bury Ditches in RGB hillshade using Relief Visualisation Toolbox." title="Bury Ditches in RGB hillshade using Relief Visualisation Toolbox."></p>
-<p>Bury Ditches Hillfort, South Shropshire.</p>
-<h3 id="data">Data</h3>
+         <h1>Choropleth</h1>
+         <h2 id="scrabble-scores-for-parishes-and-non-civil-parished-areas-in-shropshire">Scrabble scores for Parishes and Non-Civil Parished Areas in Shropshire</h2>
+<p>Inspiration came from <a href="https://twitter.com/dgplacenames/status/1464294664257916929">@dgplacenames on Twitter</a>.</p>
+<p><img src="../../img/portfolio/ScrabbleScores.png" alt="Scrabble scores for Parishes and Non-Civil Parished Areas in Shropshire." title="Scrabble scores for Parishes and Non-Civil Parished Areas in Shropshire."></p>
+<h3 id="data-i-used">Data I used</h3>
 <ul>
-<li>Data is 1m Lidar DTM from <a href="https://environment.data.gov.uk/DefraDataDownload/?Mode=survey">Defra download page</a>.</li>
-<li>Data acknowledgement for Lidar data - <code>Contains public sector information licensed under the Open Government Licence v3.0.</code></li>
+<li><a href="https://geoportal.statistics.gov.uk/datasets/ons::parishes-and-non-civil-parished-areas-december-2021-ew-bgc/explore?location=52.770796%2C-2.489483%2C7.42">Parishes and Non Civil Parished Areas from the Office of National Statistics</a></li>
 </ul>
 <h3 id="tools-i-used">Tools I used</h3>
 <ul>
-<li>QGIS to merge lidar data then clip to required area.</li>
-<li><a href="https://iaps.zrc-sazu.si/en/rvt">Relief Visualisation Toolbox</a> which I&rsquo;d not used before.</li>
+<li>Python, particularly Pandas, to generate the scrabble scores for each parish name.</li>
+<li>QGIS to create the layout.</li>
 </ul>
 <h3 id="what-did-i-learn">What did I learn?</h3>
 <ul>
-<li>Learnt about <a href="https://maps.nls.uk/guides/lidar/index.html">Lidar data with 3 directional hillshade</a> - as shown on the NLS website.  They say &ldquo;This multi-direction hillshade has the effect of picking out minor landscape features more clearly than a single direction hillshade.&rdquo;</li>
+<li>That there are fewer &ldquo;l&quot;s in choropleth than I thought!</li>
+<li>More about tidying up data to use in pandas!</li>
 </ul>
 <h3 id="what-do-i-want-to-do-next">What do I want to do next?</h3>
 <ul>
-<li>QGIS has a plugin for RVT so I&rsquo;d like to try that as well as the stand-alone version.</li>
-<li>I need to find out more detail about RVT so I possibly have more control over results.</li>
-<li>I&rsquo;d like to see what some other local hillforts look like with RGB hillshade.</li>
-<li>Might be worth comparing this with effect of single direction hillshade.</li>
-<li>Create a layout with multiple images for a variety of hillforts - but which ones?  There are too many for a single page.</li>
+<li>Find out more about different ways to classify choropleth data and the differences it makes to the message.</li>
 </ul>
 
          

@@ -6,7 +6,17 @@
     <description>Recent content in Portfolios on Clare&#39;s GIS Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 04 Oct 2022 11:34:22 +0530</lastBuildDate><atom:link href="https://cgordon-gis.github.io/gis-portfolio/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Oct 2022 19:34:22 +0530</lastBuildDate><atom:link href="https://cgordon-gis.github.io/gis-portfolio/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choropleth</title>
+      <link>https://cgordon-gis.github.io/gis-portfolio/portfolio/26_choropleth/</link>
+      <pubDate>Mon, 24 Oct 2022 19:34:22 +0530</pubDate>
+      
+      <guid>https://cgordon-gis.github.io/gis-portfolio/portfolio/26_choropleth/</guid>
+      <description>Scrabble scores for Parishes and Non-Civil Parished Areas in Shropshire Inspiration came from @dgplacenames on Twitter.
+Data I used Parishes and Non Civil Parished Areas from the Office of National Statistics Tools I used Python, particularly Pandas, to generate the scrabble scores for each parish name. QGIS to create the layout. What did I learn? That there are fewer &amp;ldquo;l&amp;quot;s in choropleth than I thought! More about tidying up data to use in pandas!</description>
+    </item>
+    
     <item>
       <title>Blue</title>
       <link>https://cgordon-gis.github.io/gis-portfolio/portfolio/08_blue/</link>

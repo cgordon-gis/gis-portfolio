@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cgordon-gis.github.io/gis-portfolio/portfolio/08_blue/</loc>
-    <lastmod>2022-10-04T11:34:22+05:30</lastmod>
+    <loc>https://cgordon-gis.github.io/gis-portfolio/portfolio/26_choropleth/</loc>
+    <lastmod>2022-10-24T19:34:22+05:30</lastmod>
   </url><url>
     <loc>https://cgordon-gis.github.io/gis-portfolio/</loc>
-    <lastmod>2022-10-04T11:34:22+05:30</lastmod>
+    <lastmod>2022-10-24T19:34:22+05:30</lastmod>
   </url><url>
     <loc>https://cgordon-gis.github.io/gis-portfolio/portfolio/</loc>
+    <lastmod>2022-10-24T19:34:22+05:30</lastmod>
+  </url><url>
+    <loc>https://cgordon-gis.github.io/gis-portfolio/portfolio/08_blue/</loc>
     <lastmod>2022-10-04T11:34:22+05:30</lastmod>
   </url><url>
     <loc>https://cgordon-gis.github.io/gis-portfolio/portfolio/21_elevation/</loc>
